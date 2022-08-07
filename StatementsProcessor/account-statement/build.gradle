@@ -1,0 +1,14 @@
+dependencies
+        {
+            //compile group:'org.springframework.boot',name:'spring-boot-starter',version:'2.5.8'
+            compile group:'org.springframework.boot',name:'spring-boot-starter',version:'2.5.8'
+            compile (group:'org.springframework.boot',name:'spring-boot-starter-jdbc',version:'2.5.8')
+            compile group:'org.springframework.boot',name:'spring-boot-starter-web',version:'2.5.8'
+            compile group:'org.springframework.boot',name:'spring-boot-starter-security',version:'2.5.8'
+            compile group:'org.springframework.boot',name:'spring-boot-starter-mail',version:'2.5.8'
+            compile group:'org.springframework.boot',name:'spring-boot-starter-actuator',version:'2.5.8'
+            compile group:'io.springfox',name:'springfox-swagger2',version:'2.9.2'
+            compile group:'io.springfox',name:'springfox-swagger-ui',version:'2.9.2'
+            compile group: 'org.apache.commons',name: 'commons-lang3',version:'3.8.1'
+            compile group:'net.sf.ucanaccess',name:'ucanaccess',version:'4.0.4'
+        }

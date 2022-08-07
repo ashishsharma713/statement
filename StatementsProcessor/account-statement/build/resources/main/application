@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:ucanaccess://C:/Users/ABC/Downloads/accountsdb.accdb;openExclusive=false,IgnoreCase=true;
+spring.datasource.driver-class-name=net.ucanaccess.jdbc.UcanaccessDriver
+server.servlet.session.timeout=1m
+spring.jpa.hibernate.ddl-auto=create
